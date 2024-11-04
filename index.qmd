@@ -7,9 +7,6 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
-project: 
-  type: website
-  output-dir: docs 
 page-layout: full
 title-block-banner: true
 ---
@@ -179,7 +176,7 @@ ggplot() +
   )
 ```
 
-## Predictions for 2024 
+## Predictions for 2024
 
 ```{r national prediction table}
 nat_pred_data <- nat_model |>
@@ -341,20 +338,20 @@ Many of these races are highly competitive, with prediction intervals often cros
 
 A visual representation of these predictions shows the expected Democratic vote share, with black dots marking the predicted values. Blue and red dots illustrate the upper and lower bounds of the confidence intervals, favoring Democrats and Republicans, respectively. The dashed red line at 50% serves as a benchmark, clearly showing how close many states are to tipping either way. This visualization reinforces the model's findings, underscoring the importance of these tightly contested states in shaping the electoral landscape.
 
-```{}
+```         
 ```
 
-```{}
+```         
 ```
 
 ### 2024 Electoral College Prediction
 
 The projection assigns the remaining states (based on our given expert forecasts), predicting Vice President Harris with 319 electoral votes and former President Trump with 219. The accompanying Electoral College map highlights Harris's expected path to surpass the 270-vote threshold needed to win.
 
-```{}
+```         
 ```
 
-```{}
+```         
 ```
 
 ## Final Thoughts
